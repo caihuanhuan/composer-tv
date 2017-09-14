@@ -1,0 +1,27 @@
+{
+    "name": "caihuanhuan/composer-tv",
+    "description": "my packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caihuanhuan",
+            "email": "caihuanhuan@ibona.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "mdm\\tv\\": ""
+        }
+    },
+	"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
